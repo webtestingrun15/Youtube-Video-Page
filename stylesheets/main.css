@@ -541,6 +541,42 @@ aside {
 aside img {
     display: block;
 }
+
+.sidebar {
+    padding-left: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar div {
+    display: inline-block;
+}
+.image {
+    float: left;
+    width: 120px;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    line-height: 1.25;
+    clear: both;
+    width: 258px;
+}
+
+/*.sidebar li:first-child {
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 20px;
+}*/
 /*footer*/
 
 footer {
