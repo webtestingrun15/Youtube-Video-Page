@@ -409,7 +409,10 @@ th {
 
 html {
     background: #F1F1F1;
-    font-family: "Arial Regular", serif;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-family: Arial Regular, serif;
+    line-height: 24px;
 }
 
 img,
@@ -457,7 +460,30 @@ header a {
 
 header button {
     margin-left: 10px;
+    border-radius: 2px;
+    border: 1px solid #d3d3d3;
+    background: #F8F8F8;
 }
+
+.upload {
+    color: #333;
+    font-weight: bold;
+    /*border: 0;*/
+    width: 60px;
+    height: 29px;
+}
+
+.sign-in {
+    background-color: #126DB3;
+    border-color: #167ac6;
+    background-color: #167ac6;
+    color: #FFF;
+    border: 0;
+    width: 60px;
+    height: 29px;
+}
+
+
 
 .button-search,
 .input-search {
@@ -474,8 +500,11 @@ header button {
 
 .button-search {
   height: 31px;
+  width: 65px;
   margin-left: -5px;
-  /*text-indent: 10000px;*/
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
   background: no-repeat url("../images/button.png");
 }
 /*input[type="search"]:focus {
