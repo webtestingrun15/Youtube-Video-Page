@@ -433,8 +433,6 @@ footer {
     margin: 0 auto;
     display: flex;
     margin-top: 60px;
-    /*flex-flow: row wrap;*/
-
     justify-content: space-around;
 }
 /* header */
@@ -445,9 +443,6 @@ header {
     right: 0;
     left: 0;
     width: 100%;
-    /*display: inline-block;
-    padding: 10px;*/
-    /*overflow: hidden;*/
 }
 
 header img {
@@ -469,8 +464,6 @@ header button {
 .upload {
     color: #333;
     font-weight: bold;
-    /*border: 0;*/
-
     width: 60px;
     height: 29px;
 }
@@ -494,8 +487,6 @@ header button {
 
 .input-search {
     margin-left: 100px;
-    /* margin-bottom: 10px;*/
-
     width: 583px;
 }
 
@@ -508,11 +499,6 @@ header button {
     overflow: hidden;
     background: no-repeat url("../images/button.png");
 }
-/*input[type="search"]:focus {
-  border-color: #FFF;
-  box-shadow: inset 0 0 2px 0 #A0A0A0;
-  outline: 0 none;
-}*/
 
 .top-buttons {
     float: right;
@@ -535,8 +521,6 @@ header button {
 aside {
     margin-left: 10px;
     width: 416px;
-    /*float:right;*/
-    /*width: 40%;*/
 }
 
 aside img {
@@ -605,10 +589,6 @@ aside img {
     margin-bottom: 0 !important;
     margin-right: 0 !important;
 }
-/*.sidebar li:first-child {
-    border-bottom: 1px solid #d3d3d3;
-    padding-bottom: 20px;
-}*/
 /*footer*/
 
 footer {
