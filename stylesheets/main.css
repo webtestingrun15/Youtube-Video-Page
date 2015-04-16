@@ -517,9 +517,20 @@ header button {
     margin-right: -660px;
 }
 
-.title {
+.title,
+.description {
     background: #FFF;
-    width: 75%;
+    width: 74%;
+    padding: 10px;
+}
+.profile-title, .title-photo{
+    display: inline-block;
+}
+.title {
+    margin-top: 5px;
+}
+.description {
+    margin-top: 10px;
 }
 /*aside*/
 
