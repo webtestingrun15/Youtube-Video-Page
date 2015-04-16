@@ -516,6 +516,11 @@ header button {
     height: 720px;
     margin-right: -660px;
 }
+
+.title {
+    background: #FFF;
+    width: 75%;
+}
 /*aside*/
 
 aside {
@@ -593,7 +598,6 @@ aside img {
 
 footer {
     /*clear: both;*/
-
     position: absolute;
     bottom: 0;
     width: 100%;
