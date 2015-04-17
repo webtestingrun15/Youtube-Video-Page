@@ -652,12 +652,3 @@ aside img {
     margin-bottom: 0 !important;
     margin-right: 0 !important;
 }
-/*footer*/
-
-footer {
-    /*clear: both;*/
-
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
