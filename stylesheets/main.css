@@ -520,22 +520,69 @@ header button {
 .title,
 .description {
     background: #FFF;
-    width: 74%;
+    width: 73.5%;
     padding: 10px;
+    font-size: 12px;
+    line-height: 17px;
 }
-.profile-title, .title-photo{
+
+.profile-title,
+.title-photo {
     display: inline-block;
 }
+
+.project-title {
+    float: right;
+}
+
 .title {
     margin-top: 5px;
 }
+
 .description {
     margin-top: 10px;
+}
+
+.odin {
+    font-weight: bold;
+    margin-bottom: 3px;
+    vertical-align: top;
+}
+
+.views {
+    margin-left: 717px;
+    font-size: 19px;
+}
+
+.bottom-title {
+    padding: 0;
+    width: 100%;
+    font-weight: bold;
+    color: #76767A;
+    border-top: 1px solid #76767A;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.add {
+    margin-right: 30px;
+}
+
+.like {
+    margin-left:  690px;
+}
+
+.dislike {
+    margin-left: 20px;
+}
+
+.profile-title img {
+    margin-top: 5px;
 }
 /*aside*/
 
 aside {
-    margin-left: 10px;
+    margin-left: 25px;
     width: 416px;
 }
 
@@ -609,6 +656,7 @@ aside img {
 
 footer {
     /*clear: both;*/
+
     position: absolute;
     bottom: 0;
     width: 100%;
